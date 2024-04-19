@@ -1,0 +1,95 @@
+body{
+    grid-template-columns: 1fr 1fr;
+ }
+.barraNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    margin-top: 29px;
+    margin-left: 108px;
+    margin-bottom: -300px;
+    width: 322px;
+    height: 166px;  
+}
+.titulo h1 {
+    font-size: 32px; //ver o tamanho depois
+}
+ 
+ 
+ .content{
+    grid-template-columns: 1fr 3fr;
+ }
+
+ .grafico img{
+    display: flex;
+    margin-top: 237px;
+    margin-left: 108px;
+    width: 522px;
+    height: 345px;
+    border-radius: 10px;
+ }
+
+.dados{
+    display: block;
+    margin-top: 597px;
+    margin-left: 108px;
+    width: 522px;
+    height: 355px;
+}
+.dados-mes{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+
+ .info img{
+    margin-top: 237px;
+    margin-left: 108px;
+    width: 522px;
+    height: 345px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /**
+ .barraNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px;
+}
+
+#imagem{
+    display: flex;
+    margin: 150px;
+    margin
+    width: 450px;
+    height: 300px;
+    
+    
+ 
+}
+
+/*.titulo{
+    
+}
+
+.tempo {
+    d
+    justify-content: right;
+    margin-right: 100px;
+    
+
+}
+*/
