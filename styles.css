@@ -1,7 +1,35 @@
-body{
+.body {
+    background-color: azure;
+    font-family: 'roboto', sans-serif;
+    width: 1280px;
+    height: 832px;
+    margin-top: -423px;
+    margin-left: 282px;
+  
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*#content{
+    display: grid;
     grid-template-columns: 1fr 1fr;
  }
-.barraNav{
+
+
+ .barraNav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +81,7 @@ body{
     width: 522px;
     height: 345px;
  }
+*/ 
  
  
  
@@ -61,35 +90,3 @@ body{
  
  
  
- 
- /**
- .barraNav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 150px;
-}
-
-#imagem{
-    display: flex;
-    margin: 150px;
-    margin
-    width: 450px;
-    height: 300px;
-    
-    
- 
-}
-
-/*.titulo{
-    
-}
-
-.tempo {
-    d
-    justify-content: right;
-    margin-right: 100px;
-    
-
-}
-*/

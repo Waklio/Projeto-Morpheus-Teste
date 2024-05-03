@@ -1,82 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porjeto Morpheus Home</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./styles.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Morpheus-Teste</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="welcome-message">
+        <h1 class="greatings">Olá, Camila</h1>
+        <p class="starting-message">Temos muito a fazer Hoje</p>
+      </div>
 
-</head>
-<body>
-    
-        <nav class="barraNav">
-            <div class="titulo">
-                <h1>Olá, Camila</h1>
-                <p>Temos muito a fazer</p>
-            </div>
-    
-            <div class="tempo">
-                <input type="time">
-            </div>
-        </nav>
-  
+      <div class="conection-status">
+        <div class="clock" id="clock">00:00:00</div>
+        <div class="light-point" id="ponto"></div>
+      </div>
+    </div>
 
-    <section class="content">
-        <section class="grafico">
-            <!--div estatisca gráfico-->
-                <div id="estatisca">
-                    <img id="imagem" src="/images/teste.png" alt="teste">
-                 </div>
-             
-            <!--div dados -->
-             
-                 <div class="dados">
-             
-                     <div class="dados-mes" id="janeiro dados-mes">
-                         <h1>janeiro</h1>
-                         <div id="janButtons">
-                              <button >-</button>
-                              <button>texto1</button>
-                              <button>+</button>
-                         </div>
-                     </div>
-                     
-                     <div class="dados-mes" id="fevereiro dados-mes" >
-                         <h1>Fevereiro</h1>
-                         <div id="fevButtons">
-                              <button >-</button>
-                              <button>texto1</button>
-                              <button>+</button>
-                         </div>
-                     </div>
-             
-                     <div class="dados-mes" id="março">
-                         <h1>Março</h1>
-                         <div id="marButtons">
-                              <button >-</button>
-                              <button>texto1</button>
-                              <button>+</button>
-                         </div>
-                     </div>
-                 </div>
-                 </div>
-            </section>
-        
-            <section class="info">
-                <div id="info-relavante">
-                    <img src="./images/teste.png" alt="imagem de fundo">
-                </div>
-        
-                <div id="info-descricao">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Vitae, animi ipsam blanditiis recusandae commodi quasi voluptatem facilis et accusantium 
-                    accusamus laboriosam similique dolore quidem ea optio perferendis ex ullam ipsum!</p>
-                </div>
-            </section>
-           
+    <section class="container">
+        <section class="left-division">
+            <div class="statitiscs">
+              <div class="section-title">
+                <h1>estatística</h1>
+              </div>
+      
+              <div class="chart-card">
+                <img src="/images/teste.png" alt="teste e mais teste" />
+              </div>
+            </div>
+      
+            <div class="data">
+              <div class="section-title">
+                <h1>dados</h1>
+              </div>
+      
+              <div class="numbers-table">
+                <input type="number" />
+                <input type="number" />
+                <input type="number" />
+                <input type="number" />
+              </div>
+            </div>
+          </section>
+      
+          <section class="right-division">
+            <div class="relevant-info">
+              <div class="image-info">
+                <img src="/images/teste.png" alt="teste e mais teste" />
+              </div>
+      
+              <div class="about-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                  nostrum omnis laudantium eos fugiat minima sint deserunt quasi
+                  accusantium officia. Quas asperiores est iste dolores tempore,
+                  quibusdam numquam sit! Nisi.
+                </p>
+              </div>
+            </div>
+          </section>
+
     </section>
-   
-   
-</body>
+
+    
+  </body>
 </html>
