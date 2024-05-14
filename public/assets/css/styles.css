@@ -1,0 +1,173 @@
+:root {
+  --glass-blur: 4px;
+  --glass-background: rgba(255, 255, 255, 0.4);
+  --page-background-default: rgb(49, 28, 132);
+  --page-background: linear-gradient(
+    180deg,
+    rgba(49, 28, 132, 1) 0%,
+    rgba(49, 28, 132, 1) 35%,
+    rgba(223, 62, 120, 1) 100%
+  );
+  --text-color: #fefefe;
+}
+
+body {
+  background: var(--page-background-default);
+  background: var(--page-background);
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 80px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+  height: 100%;
+}
+
+.form-collumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.flex-40 {
+  flex-basis: 40%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.welcome-message .title {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  margin-bottom: 0.625rem;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 5%;
+}
+
+.clock-icon {
+  color: blue;
+}
+.glass-card {
+  background: var(--glass-background);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 20px;
+
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.glass-button:hover {
+  border: 1px solid #fefefe;
+  cursor: pointer;
+}
+
+.glass-input-text {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(var(--glass-blur));
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  width: 100px;
+  outline: none;
+  text-align: center;
+
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.glass-input {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.card-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),  url("/public/assets/images/card-image.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-basis: 35%;
+  align-items: end;
+
+  
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  margin-bottom: 0.625rem;
+
+}
+
+.flex-collumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+    gap: 40px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+.remove-arrows::-webkit-outer-spin-button,
+.remove-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.temove-arrows[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.padding-small {
+  padding: 10px 40px;
+}
+
+.padding-medium {
+  padding: 40px;
+}
