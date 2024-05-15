@@ -21,13 +21,18 @@
     <div class="container">
       <header class="header">
         <div class="welcome-message">
-          <h2 class="title"><span id="greetings">Olá </span><strong class="user-name" id="user-name">Usuário!</strong></h2>
+          <h2 class="title">
+            <span id="greetings">Olá </span
+            ><strong class="user-name" id="user-name">Usuário!</strong>
+          </h2>
           <p>Temos muito a fazer hoje.</p>
         </div>
 
         <div class="clock glass-card padding-small">
           <span id="clock">xx:xx</span>
-          <span id="clock-symbol" class="material-symbols-outlined clock-icon"> circle </span>
+          <span id="clock-symbol" class="material-symbols-outlined clock-icon">
+            circle
+          </span>
         </div>
       </header>
 
@@ -41,67 +46,89 @@
                   <label for="janeiro">
                     <span>Janeiro</span>
                   </label>
-                  <div class="controllers">
-                    <button class="glass-button">-</button>
+                  <div class="input-number-group controllers">
+                    <button
+                      id="janeiro-subtract"
+                      class="input-number-button-subtract glass-button"
+                    >
+                      -
+                    </button>
                     <input
-                      class="glass-input-text remove-arrows"
+                      class="input-number glass-input-text remove-arrows"
                       type="number"
                       name="janeiro"
                       id="janeiro"
                       value="10"
                     />
-                    <button class="glass-button">+</button>
+                    <button
+                      id="janeiro-add"
+                      class="input-number-button-add glass-button"
+                    >
+                      +
+                    </button>
                   </div>
                 </div>
 
                 <div class="glass-card padding-small glass-input">
-                  <label for="janeiro">
-                    <span>Janeiro</span>
+                  <label for="Fevereiro">
+                    <span>Fevereiro</span>
                   </label>
-                  <div class="controllers">
-                    <button class="glass-button">-</button>
+                  <div class="input-number-group controllers">
+                    <button class="input-number-button-subtract glass-button">
+                      -
+                    </button>
                     <input
-                      class="glass-input-text remove-arrows"
+                      class="input-number glass-input-text remove-arrows"
                       type="number"
                       name="janeiro"
                       id="janeiro"
                       value="10"
                     />
-                    <button class="glass-button">+</button>
+                    <button class="input-number-button-add glass-button">
+                      +
+                    </button>
                   </div>
                 </div>
 
                 <div class="glass-card padding-small glass-input">
-                  <label for="janeiro">
-                    <span>Janeiro</span>
+                  <label for="Março">
+                    <span>Março</span>
                   </label>
-                  <div class="controllers">
-                    <button class="glass-button">-</button>
+                  <div class="input-number-group controllers">
+                    <button class="input-number-button-subtract glass-button">
+                      -
+                    </button>
                     <input
-                      class="glass-input-text remove-arrows"
+                      class="input-number glass-input-text remove-arrows"
                       type="number"
                       name="janeiro"
                       id="janeiro"
                       value="10"
                     />
-                    <button class="glass-button">+</button>
+                    <button class="input-number-button-add glass-button">
+                      +
+                    </button>
                   </div>
                 </div>
 
                 <div class="glass-card padding-small glass-input">
-                  <label for="janeiro">
-                    <span>Janeiro</span>
+                  <label for="Abril">
+                    <span>Abril</span>
                   </label>
-                  <div class="controllers">
-                    <button class="glass-button">-</button>
+                  <div class="input-number-group controllers">
+                    <button class="input-number-button-subtract glass-button">
+                      -
+                    </button>
                     <input
-                      class="glass-input-text remove-arrows"
+                      class="input-number glass-input-text remove-arrows"
                       type="number"
-                      name="janeiro"
-                      id="janeiro"
+                      name="Abril"
+                      id="Abril"
                       value="10"
                     />
-                    <button class="glass-button">+</button>
+                    <button class="input-number-button-add glass-button">
+                      +
+                    </button>
                   </div>
                 </div>
               </form>
@@ -123,5 +150,6 @@
       </main>
     </div>
   </body>
-    <script src="/public/assets/js/script.js"></script>
+
+  <script defer src="/public/assets/js/script.js"></script>
 </html>
