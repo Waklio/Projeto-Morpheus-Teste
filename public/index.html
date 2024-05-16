@@ -25,7 +25,7 @@
             <span id="greetings">Olá </span
             ><strong class="user-name" id="user-name">Usuário!</strong>
           </h2>
-          <p>Temos muito a fazer hoje.</p>
+          <p>Temos muito a fazer hoje<span id="user-city"></span>.</p>
         </div>
 
         <div class="clock glass-card padding-small">
@@ -39,8 +39,14 @@
       <main>
         <div class="content">
           <div class="flex-collumn">
+            <div class="flex-40">
+              <label for="statistics" class="label-card">estatística</label>
+              <div class="glass-card padding-small">
+                <canvas id="statistics"></canvas>
+              </div>
+            </div>
             <div class="chart-control flex-40">
-              <label for="chart-control">data</label>
+              <label for="chart-control" class="label-card">data</label>
               <form action="" class="form-collumn" id="chart-control">
                 <div class="glass-card padding-small glass-input">
                   <label for="janeiro">
@@ -136,11 +142,15 @@
           </div>
 
           <div class="flex-collumn">
-            <div class="card-image glass-card padding-medium">
-              <h2>Informação Relevante</h2>
+            <div id="post-card" class="card-image glass-card padding-medium">
+              <h2 class="post-card-title">Informação Relevante</h2>
             </div>
 
-            <div class="text-card glass-card padding-medium">
+            <div id="post-teste" class="card-image glass-card padding-medium">
+              <h2 class="post-card-title">Informação Relevante</h2>
+            </div>
+
+            <div id="information-card" class="text-card glass-card padding-medium">
               O <strong>bruxismo do sono</strong> é comumente relacionado à
               ansiedade. Esta patologia pode danificar o bom funcionamento da
               arcada dentária.
@@ -150,6 +160,6 @@
       </main>
     </div>
   </body>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script defer src="/public/assets/js/script.js"></script>
 </html>
