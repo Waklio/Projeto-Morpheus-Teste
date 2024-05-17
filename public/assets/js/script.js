@@ -157,16 +157,32 @@ function cardText(id, text) {
   cardtext.innerHTML = text;
 }
 
-cardText("information-card", "chuva");
+cardText("information-card", "Good people have a bright smile and a good heart !");
 
 addCardPost(
   "post-card",
-  "teste",
-  "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/10/erik-jan-leusink-IbPxGLgJiMI-unsplash-scaled.jpg"
+  "Cuide do seu sorriso.",
+  "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia10708/instrumentos-odontologicos-cursos-cpt.jpg"
 );
 
 addCardPost(
   "post-teste",
-  "tanto faz",
-  "https://www.petz.com.br/blog/wp-content/uploads/2017/04/comportamento-dos-gatos-1.jpg"
+  "Cuide do seu coração.",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPXhy5IS7DFdqjsjPuU0NzJdq5lRZS83fO3DkN1a1Ig&s"
 );
+
+// function addElement() {
+//   const glassCardElement =  document.createElement("div");
+//   const content =  document.createTextNode("teste teste teste");
+//   glassCardElement.classList = "glass-card padding-medium";
+
+//   glassCardElement.appendChild(content);
+
+//   const parent = document.getElementById("information-collumn");
+//   parent.appendChild(glassCardElement);
+// }
+
+
+
+// const infos = ["bola", "gato", "cachorro"];
+
