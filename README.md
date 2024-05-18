@@ -38,9 +38,8 @@ Para executar o projeto localmente, siga os passos abaixo:
 ![Tela rincipal](/demo/demo.jpg.png)
 
 ## A ser trabalhado
-
- - [] Conexão entre os botões e o gráfico.
- - [] Automatizar a criação dos Cards.
-  - [] Responsividade.
+  - [ ] Conexão entre os botões e o gráfico.
+  - [ ] Automatizar a criação dos Cards.
+  - [ ] Responsividade.
 
 
